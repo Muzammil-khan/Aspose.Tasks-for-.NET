@@ -24,3 +24,4 @@ test-results/
 *.userprefs
 packages/
 *.gitattributes
+/Examples/CSharp/WorkingWithProjects/CreatingReadingAndSaving

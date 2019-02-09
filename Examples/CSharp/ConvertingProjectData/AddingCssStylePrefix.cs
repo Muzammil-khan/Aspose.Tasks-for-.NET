@@ -13,7 +13,7 @@ namespace Aspose.Tasks.Examples.CSharp.ConvertingProjectData
             // The path to the documents directory.
             string dataDir = RunExamples.GetDataDir(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType.FullName);
 
-            // ExStart:CustomizeTextStyle
+            // ExStart:AddingCssStylePrefix
             Project project = new Project(dataDir + "CreateProject2.mpp");
 
             HtmlSaveOptions options = new HtmlSaveOptions
@@ -22,7 +22,7 @@ namespace Aspose.Tasks.Examples.CSharp.ConvertingProjectData
             };
 
             project.Save(dataDir + "TestCssStylePrefix_out.html", options);
-            // ExEnd:CustomizeTextStyle
+            // ExEnd:AddingCssStylePrefix
         }
     }
 }
